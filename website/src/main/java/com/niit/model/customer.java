@@ -46,7 +46,5 @@ public int getDOB() {
 public void setDOB(int dOB) {
 	DOB = dOB;
 }
-}
-
 
 }

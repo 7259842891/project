@@ -10,7 +10,7 @@ public interface CustomerDao {
 	 
 	    public List<customer> getAllcustomer();
 	 
-	    public void deletecustomer(Integer customer);
+	    public void deletecustomer(int customerId);
 	 
 	    public customer updatecustomer(customer c);
 	 

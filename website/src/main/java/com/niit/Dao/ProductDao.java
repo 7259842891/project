@@ -1,6 +1,8 @@
 package com.niit.Dao;
 import java.util.List;
+import java.util.Locale.Category;
 
+import com.niit.model.category;
 import com.niit.model.product;
 
 public interface ProductDao {
@@ -10,10 +12,10 @@ public interface ProductDao {
 	 
 	    public List<product> getAllproduct();
 	 
-	    public void deleteproduct(Integer product);
+	    public void deleteproduct(int productId);
 	 
 	    public product updateproduct(product p);
-	 
+	    
 	    public product getproduct(int Id);
 	}
 
